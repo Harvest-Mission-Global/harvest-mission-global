@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/harvest-mission-global/static/css/main.f855e6bc.css",
-    "main.js": "/harvest-mission-global/static/js/main.ccb81ddc.js",
-    "static/js/453.ac95a921.chunk.js": "/harvest-mission-global/static/js/453.ac95a921.chunk.js",
+    "main.js": "/harvest-mission-global/static/js/main.81cb8645.js",
+    "static/js/453.366d72a5.chunk.js": "/harvest-mission-global/static/js/453.366d72a5.chunk.js",
     "static/media/logo.svg": "/harvest-mission-global/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/harvest-mission-global/index.html",
     "main.f855e6bc.css.map": "/harvest-mission-global/static/css/main.f855e6bc.css.map",
-    "main.ccb81ddc.js.map": "/harvest-mission-global/static/js/main.ccb81ddc.js.map",
-    "453.ac95a921.chunk.js.map": "/harvest-mission-global/static/js/453.ac95a921.chunk.js.map"
+    "main.81cb8645.js.map": "/harvest-mission-global/static/js/main.81cb8645.js.map",
+    "453.366d72a5.chunk.js.map": "/harvest-mission-global/static/js/453.366d72a5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.ccb81ddc.js"
+    "static/js/main.81cb8645.js"
   ]
 }
