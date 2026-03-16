@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/harvest-mission-global/static/css/main.f855e6bc.css",
-    "main.js": "/harvest-mission-global/static/js/main.81cb8645.js",
+    "main.js": "/harvest-mission-global/static/js/main.79e7013c.js",
     "static/js/453.366d72a5.chunk.js": "/harvest-mission-global/static/js/453.366d72a5.chunk.js",
-    "static/media/logo.svg": "/harvest-mission-global/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/background.jpg": "/harvest-mission-global/static/media/background.a6882aa9654f6f6a92e5.jpg",
     "index.html": "/harvest-mission-global/index.html",
     "main.f855e6bc.css.map": "/harvest-mission-global/static/css/main.f855e6bc.css.map",
-    "main.81cb8645.js.map": "/harvest-mission-global/static/js/main.81cb8645.js.map",
+    "main.79e7013c.js.map": "/harvest-mission-global/static/js/main.79e7013c.js.map",
     "453.366d72a5.chunk.js.map": "/harvest-mission-global/static/js/453.366d72a5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.81cb8645.js"
+    "static/js/main.79e7013c.js"
   ]
 }
