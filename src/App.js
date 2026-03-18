@@ -1,8 +1,10 @@
 import React from 'react';
-import { Box, VStack, HStack, Text, Button } from '@chakra-ui/react';
+import { Box, VStack, HStack, Text, Button, useBreakpointValue } from '@chakra-ui/react';
 import backgroundImage from './images/background.jpg';
 
 function App() {
+  const isMobile = useBreakpointValue({ base: true, md: false });
+
   return (
     <Box
       backgroundImage={`url(${backgroundImage})`}
@@ -13,26 +15,29 @@ function App() {
       flexDirection="column"
       justifyContent="center"
       alignItems="center"
+      px={{ base: 4, md: 0 }}
     >
-      <VStack spacing={6} align="center">
+      <VStack spacing={6} align="center" width="100%">
         <Text
           fontFamily="'DM Sans', sans-serif"
-          fontSize="2.5rem"
+          fontSize={{ base: '1.8rem', md: '2.5rem' }}
           color="black"
           fontStyle="italic"
+          textAlign="center"
         >
           Welcome to
         </Text>
         <Text
           fontFamily="'DM Sans', sans-serif"
-          fontSize="3rem"
+          fontSize={{ base: '2rem', md: '3rem' }}
           fontWeight="bold"
           color="black"
           mb={8}
+          textAlign="center"
         >
           HARVEST MISSION GLOBAL
         </Text>
-        <HStack spacing={6}>
+        <HStack spacing={{ base: 3, md: 6 }} justify="center" width="100%" flexWrap={isMobile ? 'wrap' : 'nowrap'}>
           <Button
             as="a"
             href="https://www.atx.hmccglobal.org/"
@@ -42,9 +47,9 @@ function App() {
             fontWeight="bold"
             bg="#c3d2ff"
             color="black"
-            px={8}
+            px={{ base: 6, md: 8 }}
             py={2}
-            fontSize="1.5rem"
+            fontSize={{ base: '1rem', md: '1.5rem' }}
             border="none"
             borderRadius="20px"
             boxShadow="0 2px 4px rgba(0,0,0,0.2)"
@@ -65,9 +70,9 @@ function App() {
             fontWeight="bold"
             bg="#c3d2ff"
             color="black"
-            px={8}
+            px={{ base: 6, md: 8 }}
             py={2}
-            fontSize="1.5rem"
+            fontSize={{ base: '1rem', md: '1.5rem' }}
             border="none"
             borderRadius="20px"
             boxShadow="0 2px 4px rgba(0,0,0,0.2)"
