@@ -1,6 +1,6 @@
 {
-  "name": "hello-world",
-  "homepage": "https://uat.hmccglobal.org",
+  "name": "harvest-mission-global",
+  "homepage": "https://hmccglobal.org",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
