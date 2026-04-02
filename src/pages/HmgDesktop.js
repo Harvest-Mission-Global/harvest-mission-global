@@ -164,7 +164,7 @@ export default function HmgDesktop() {
         gap="0.25rem"
       >
         <Text
-          fontSize="0.75rem"
+          fontSize="0.875rem"
           color="#0025a2"
           fontFamily="'DM Sans', sans-serif"
           whiteSpace="nowrap"
@@ -172,14 +172,14 @@ export default function HmgDesktop() {
           Contact us at admin@hmccglobal.org
         </Text>
         <Text
-          fontSize="0.75rem"
+          fontSize="0.875rem"
           color="#555"
           fontFamily="'DM Sans', sans-serif"
         >
           |
         </Text>
         <Text
-          fontSize="0.75rem"
+          fontSize="0.875rem"
           color="#555"
           fontFamily="'DM Sans', sans-serif"
           whiteSpace="nowrap"

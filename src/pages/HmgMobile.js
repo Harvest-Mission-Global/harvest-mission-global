@@ -162,7 +162,7 @@ export default function HmgMobile() {
         gap={"0.25rem"}
       >
         <Text
-          fontSize="0.6875rem"
+          fontSize="0.875rem"
           color="#0025a2"
           fontFamily="'DM Sans', sans-serif"
           whiteSpace="nowrap"
@@ -175,7 +175,7 @@ export default function HmgMobile() {
           bg="#B1BEE9"
         />
         <Text
-          fontSize="0.6875rem"
+          fontSize="0.875rem"
           color="#555"
           fontFamily="'DM Sans', sans-serif"
           whiteSpace="nowrap"
