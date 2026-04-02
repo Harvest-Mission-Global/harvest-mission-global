@@ -75,7 +75,8 @@ export default function HmgMobile() {
               fontSize="1rem"
               fontWeight="extrabold"
               _hover={{
-                bgColor: 'rgba(226, 233, 255, 0.05)',
+                bgColor: '#0025a3',
+                color: 'white',
               }}
               display="flex"
               alignItems="center"
@@ -105,7 +106,8 @@ export default function HmgMobile() {
               fontWeight="extrabold"
               w="70%"
               _hover={{
-                bgColor: 'rgba(226, 233, 255, 0.05)',
+                bgColor: '#0025a3',
+                color: 'white',
               }}
               display="flex"
               alignItems="center"
@@ -116,7 +118,7 @@ export default function HmgMobile() {
             </Button>
 
           {/* Main CTA Button */}
-          <Button
+          {/* <Button
             bg="linear-gradient(90deg, #0025A3 0%, #5D6FAC 100%)"
             color="white"
             borderRadius="1rem"
@@ -145,7 +147,7 @@ export default function HmgMobile() {
                 as a global family of churches
               </Text>
             </VStack>
-          </Button>
+          </Button> */}
         </VStack>
       </Box>
 

@@ -79,7 +79,8 @@ export default function HmgDesktop() {
               fontWeight="extrabold"
               flex="1"
               _hover={{
-                bgColor: 'rgba(226, 233, 255, 0.05)',
+                bgColor: '#0025a3',
+                color: 'white',
               }}
               display="flex"
               alignItems="center"
@@ -108,7 +109,8 @@ export default function HmgDesktop() {
               fontWeight="extrabold"
               flex="1"
               _hover={{
-                bgColor: 'rgba(226, 233, 255, 0.05)',
+                bgColor: '#0025a3',
+                color: 'white',
               }}
               display="flex"
               alignItems="center"
@@ -120,7 +122,7 @@ export default function HmgDesktop() {
           </HStack>
 
           {/* Main CTA Button */}
-          <Button
+          {/* <Button
             bg="linear-gradient(90deg, #0025A3 0%, #5D6FAC 100%)"
             color="white"
             borderRadius="1.25rem"
@@ -147,7 +149,7 @@ export default function HmgDesktop() {
                 as a Global Family of Churches
               </Text>
             </VStack>
-          </Button>
+          </Button> */}
         </VStack>
       </Box>
 
