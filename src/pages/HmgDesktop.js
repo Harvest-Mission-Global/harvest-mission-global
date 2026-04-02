@@ -5,10 +5,9 @@ import {
   HStack,
   Text,
   Button,
-  Container,
   Image,
-  useBreakpointValue,
 } from '@chakra-ui/react';
+import { FiArrowRight } from 'react-icons/fi';
 import background from '../images/BG_top.png';
 import ripple from '../images/ripple.png';
 
@@ -82,8 +81,12 @@ export default function HmgDesktop() {
               _hover={{
                 bgColor: 'rgba(226, 233, 255, 0.05)',
               }}
+              display="flex"
+              alignItems="center"
+              justifyContent="center"
+              gap="0.5rem"
             >
-              Austin →
+              Austin <FiArrowRight />
             </Button>
             <Button
               as="a"
@@ -107,8 +110,12 @@ export default function HmgDesktop() {
               _hover={{
                 bgColor: 'rgba(226, 233, 255, 0.05)',
               }}
+              display="flex"
+              alignItems="center"
+              justifyContent="center"
+              gap="0.5rem"
             >
-              Hong Kong →
+              Hong Kong <FiArrowRight />
             </Button>
           </HStack>
 
