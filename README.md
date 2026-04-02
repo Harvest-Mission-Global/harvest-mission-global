@@ -1,1 +1,1 @@
-# HMCC Website
+# HMG Website
