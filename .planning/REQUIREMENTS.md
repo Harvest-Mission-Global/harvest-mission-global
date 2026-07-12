@@ -76,20 +76,20 @@ Deferred to future release. Tracked but not in current roadmap.
 | FOUND-02 | Phase 1 | Pending |
 | FOUND-03 | Phase 1 | Pending |
 | FOUND-04 | Phase 1 | Pending |
-| NAV-01 | Phase 1 | Pending |
-| NAV-02 | Phase 2 | Pending |
-| NAV-03 | Phase 2 | Pending |
-| NAV-04 | Phase 2 | Pending |
+| NAV-01 | Phase 2 | Pending |
+| NAV-02 | Phase 3 | Pending |
+| NAV-03 | Phase 3 | Pending |
+| NAV-04 | Phase 3 | Pending |
 | NAV-05 | Phase 2 | Pending |
-| HOME-01 | Phase 1 | Pending |
-| HOME-02 | Phase 1 | Pending |
-| HOME-03 | Phase 2 | Pending |
-| MISS-01 | Phase 2 | Pending |
-| MISS-02 | Phase 2 | Pending |
-| MISS-03 | Phase 2 | Pending |
-| BELIEF-01 | Phase 2 | Pending |
-| BELIEF-02 | Phase 2 | Pending |
-| BELIEF-03 | Phase 2 | Pending |
+| HOME-01 | Phase 4 | Pending |
+| HOME-02 | Phase 4 | Pending |
+| HOME-03 | Phase 4 | Pending |
+| MISS-01 | Phase 5 | Pending |
+| MISS-02 | Phase 5 | Pending |
+| MISS-03 | Phase 5 | Pending |
+| BELIEF-01 | Phase 6 | Pending |
+| BELIEF-02 | Phase 6 | Pending |
+| BELIEF-03 | Phase 6 | Pending |
 
 **Coverage:**
 - v1 requirements: 18 total
