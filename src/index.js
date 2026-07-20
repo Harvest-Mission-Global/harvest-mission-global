@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import '@fontsource/dm-sans';
-import { ChakraProvider, createSystem, defaultConfig } from '@chakra-ui/react';
+import { ChakraProvider } from '@chakra-ui/react';
 import App from './App';
-
-const system = createSystem(defaultConfig);
+import { system } from './theme';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

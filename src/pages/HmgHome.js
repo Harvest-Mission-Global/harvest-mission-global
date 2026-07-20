@@ -11,6 +11,16 @@ import { FiArrowRight } from 'react-icons/fi';
 import background from '../images/BG_top.png';
 import ripple from '../images/ripple.png';
 
+const enter = (delay, animation = 'fadeInUp 0.65s ease-out forwards') => ({
+  opacity: 0,
+  animation,
+  animationDelay: `${delay}ms`,
+  _motionReduce: {
+    animation: 'fadeIn 0.4s ease-out forwards',
+    animationDelay: `${delay}ms`,
+  },
+});
+
 const locationBtnProps = {
   asChild: true,
   bg: 'transparent',
@@ -65,6 +75,7 @@ export default function HmgHome() {
           gap="1.5rem"
         >
           <Text
+            {...enter(100)}
             fontSize={{ base: '1.5rem', md: '2.5rem' }}
             fontWeight="extrabold"
             color="#0025a3"
@@ -76,9 +87,16 @@ export default function HmgHome() {
             Harvest Mission Global
           </Text>
 
-          <Image src={ripple} alt="Ripple" w="8rem" marginBottom="2.5rem" />
+          <Image
+            {...enter(220)}
+            src={ripple}
+            alt="Ripple"
+            w="8rem"
+            marginBottom="2.5rem"
+          />
 
           <HStack
+            {...enter(340)}
             gap="0.5rem"
             justify="center"
             w="100%"
@@ -106,6 +124,7 @@ export default function HmgHome() {
           </HStack>
 
           <Button
+            {...enter(460)}
             asChild
             bg="linear-gradient(90deg, #0025A3 0%, #5D6FAC 100%)"
             color="white"
@@ -158,6 +177,7 @@ export default function HmgHome() {
       </Box>
 
       <Box
+        {...enter(580, 'fadeIn 0.4s ease-out forwards')}
         bg="#e0e8ff"
         py="0.25rem"
         px={{ base: '0.25rem', md: '0.5rem' }}
