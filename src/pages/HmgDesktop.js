@@ -8,6 +8,7 @@ import {
   Image,
 } from '@chakra-ui/react';
 import { FiArrowRight } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 import background from '../images/BG_top.png';
 import ripple from '../images/ripple.png';
 
@@ -122,7 +123,9 @@ export default function HmgDesktop() {
           </HStack>
 
           {/* Main CTA Button */}
-          {/* <Button
+          <Button
+            as={Link}
+            to="/10y-commitment"
             bg="linear-gradient(90deg, #0025A3 0%, #5D6FAC 100%)"
             color="white"
             borderRadius="1.25rem"
@@ -149,7 +152,7 @@ export default function HmgDesktop() {
                 as a Global Family of Churches
               </Text>
             </VStack>
-          </Button> */}
+          </Button>
         </VStack>
       </Box>
 
