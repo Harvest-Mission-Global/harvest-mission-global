@@ -1,32 +1,18 @@
-// src/theme/index.js
-import { createSystem, defaultConfig, defineConfig } from "@chakra-ui/react";
+import { createSystem, defaultConfig, defineConfig } from '@chakra-ui/react';
 
-/**
- * CHAKRA UI THEME SYSTEM
- * 
- * Currently using defaultSystem as the base.
- * 
- * TO CUSTOMIZE:
- * 1. Add your tokens to the customConfig object below
- * 2. The system will merge them with defaultConfig
- * 
- * Example customization:
- * tokens: {
- *   colors: {
- *     brand: { 
- *       500: { value: "#your-color" }
- *     }
- *   }
- * }
- */
-
-const customConfig = defineConfig({
+const config = defineConfig({
   theme: {
-    // 👇 Add your customizations here when ready
-    tokens: {},
-    semanticTokens: {},
+    keyframes: {
+      fadeInUp: {
+        from: { opacity: 0, transform: 'translateY(14px)' },
+        to: { opacity: 1, transform: 'translateY(0)' },
+      },
+      fadeIn: {
+        from: { opacity: 0 },
+        to: { opacity: 1 },
+      },
+    },
   },
 });
 
-// Merge default and custom configurations
-export const system = createSystem(defaultConfig, customConfig);
+export const system = createSystem(defaultConfig, config);

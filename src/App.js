@@ -1,16 +1,26 @@
-import React from 'react';
-import { Box, useBreakpointValue } from '@chakra-ui/react';
-import HmgDesktop from './pages/HmgDesktop';
-import HmgMobile from './pages/HmgMobile';
+import React, { useEffect, useState } from 'react';
+import HmgHome from './pages/HmgHome';
+import TenYearCommitment from './pages/TenYearCommitment';
+
+function getPath() {
+  const hash = window.location.hash.slice(1);
+  return hash || '/';
+}
 
 function App() {
-  const isMobile = useBreakpointValue({ base: true, md: false });
+  const [path, setPath] = useState(getPath);
 
-  return (
-    <Box>
-      {isMobile ? <HmgMobile /> : <HmgDesktop />}
-    </Box>
-  );
+  useEffect(() => {
+    const onHashChange = () => setPath(getPath());
+    window.addEventListener('hashchange', onHashChange);
+    return () => window.removeEventListener('hashchange', onHashChange);
+  }, []);
+
+  if (path === '/10y-commitment') {
+    return <TenYearCommitment />;
+  }
+
+  return <HmgHome />;
 }
 
 export default App;
