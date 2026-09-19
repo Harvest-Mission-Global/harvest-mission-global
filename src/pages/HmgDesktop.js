@@ -9,7 +9,6 @@ import {
 } from '@chakra-ui/react';
 import { FiArrowRight } from 'react-icons/fi';
 import background from '../images/BG_top.png';
-import ripple from '../images/ripple.png';
 
 export default function HmgDesktop() {
   return (
@@ -53,8 +52,6 @@ export default function HmgDesktop() {
           >
             Harvest Mission Global
           </Text>
-
-          <Image src={ripple} alt="Ripple" w="8rem" marginBottom={"2.5rem"}/>
 
           {/* CTA Buttons */}
           <HStack spacing="0.5rem" justify="center" w="100%" maxW="45rem">

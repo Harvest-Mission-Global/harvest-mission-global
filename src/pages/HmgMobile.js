@@ -8,7 +8,6 @@ import {
 } from '@chakra-ui/react';
 import { FiArrowRight } from 'react-icons/fi';
 import background from '../images/BG_top.png';
-import ripple from '../images/ripple.png';
 
 export default function HmgMobile() {
   return (
@@ -50,8 +49,6 @@ export default function HmgMobile() {
           >
             Harvest Mission Global
           </Text>
-
-          <Image src={ripple} alt="Ripple" w="8rem" marginBottom={"2.5rem"}/>
 
           {/* CTA Buttons - Stacked on mobile */}
             <Button

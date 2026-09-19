@@ -16,7 +16,7 @@ src/App.js            → useBreakpointValue → HmgMobile | HmgDesktop
 src/pages/HmgDesktop.js
 src/pages/HmgMobile.js
 src/theme/index.js    → createSystem(defaultConfig) — empty custom tokens
-src/images/           → BG_top.png, ripple.png
+src/images/           → BG_top.png
 public/CNAME          → hmccglobal.org
 ```
 
